@@ -153,7 +153,9 @@ width: 270px;
 .section_our_team{background: #F5F4FA;}
 .our_team_list{display: flex;}
 .our_team_item{
-    background-color: #FFFFFF;}
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;}
 .our_team_item:nth-child(n+2){margin-left: 30px;}
 .name_our_team{
         font-style: normal;
@@ -190,6 +192,7 @@ width: 270px;
          fill: #afb1b8;}
     .clients:hover{fill: #2196F3;
         border: 1px  solid #2196F3}
+        
         .clients_item:nth-child(n+2){margin-left: 30px;}
       
 .footer{background: #2F303A;
@@ -263,11 +266,15 @@ padding-top: 10px;}
         border: none;
         padding: 6px 22px 6px 22px;}
 .portfolio_button_text:focus{background-color: #2196F3;
-                color: #FFFFFF;} 
+                color: #FFFFFF;
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+            } 
                 .portfolio_button_text:hover{
                     background-color: #2196F3;
                     cursor:pointer;
-                    color: #FFFFFF;}  
+                    color: #FFFFFF;
+                    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+                }  
 .porfolio_buttons_item:nth-child(n+2){margin-left: 8px;}
 
  .portfolio-list{
@@ -301,6 +308,7 @@ padding-top: 10px;}
         border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF;     
        }
+       .portfolio_item:hover{box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
        .portfolio_item:nth-child(n+4){margin-top: 30px;}
   .portfolio_item:nth-child(3n-1){margin-left: 30px;
 margin-right: 30px;}
