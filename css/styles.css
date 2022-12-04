@@ -57,19 +57,22 @@ padding-bottom: 94px;}
 }
 .mail{ margin-right: 40px;}
 
-.mail_tel_style{font-style: normal;
+.mail_tel_style{    font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
         color: #757575;
-        display: block;
         padding-top: 32px;
-        padding-bottom: 32px;} 
+        padding-bottom: 32px;    } 
 .mail_tel_icon{cursor: pointer;
     fill:#757575;}
-.mail_tel_icon:hover{fill:#2196F3;}
+.mail_tel_icon:hover{fill:#2196F3; }
+.envelope-hover{width: 16px;
+height: 12px;
+vertical-align:inherit;}
 .smartphone{width:10px;
-    height:16px;}
+    height:16px; 
+    vertical-align:bottom;}
 .order_a_service{
     background-color: #2F303A;
    padding-top: 200px;
